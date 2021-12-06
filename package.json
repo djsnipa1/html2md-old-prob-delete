@@ -1,13 +1,19 @@
 {
-  "name": "my-node-app",
+  "name": "html2md",
   "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Chad Boyce",
+  "license": "ISC",
   "dependencies": {
     "@mozilla/readability": "^0.4.1",
     "axios": "^0.24.0",
-    "fs": "0.0.1-security",
     "node-readability": "^3.0.0",
     "turndown": "^7.1.1",
-    "turndown-async": "0.0.2",
+    "turndown-async": "^0.0.2",
     "turndown-plugin-gfm": "^1.0.2"
   }
 }

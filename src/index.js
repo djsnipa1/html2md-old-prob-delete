@@ -1,8 +1,6 @@
 const axios = require("axios");
 const TurndownService = require('turndown');
 const turndownPluginGfm = require('turndown-plugin-gfm');
-const fs = require('fs');
-const lib = require('./lib');
 const read = require('node-readability');
 
 const mainurl = 'https://www.toptal.com/nodejs/gatsby-js-node-js-static-site-generator-pt-1'
@@ -87,26 +85,7 @@ function saveRawHtml() {
 
 //saveRawHtml();
 
-function importModule() {
-
-  try {
-    const result = lib.chad();
-    //file written successfully
-    console.log("chad passed-")
-  }  catch (err) {
-  console.error(err)
-  }
-}
-importModule();
-
   
-// Use fs.readFile() method to read the file 
-fs.readFile('./rawhtml.html', (err, data) => { 
-
-    console.log(data); 
-
- }) 
-
 console.log("fs2sń")
 var readability = require("readability");
 //var html = "<html>xxxxxxxxxxx</html>";
