@@ -1,0 +1,13 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "@mozilla/readability": "^0.4.1",
+    "axios": "^0.24.0",
+    "fs": "0.0.1-security",
+    "node-readability": "^3.0.0",
+    "turndown": "^7.1.1",
+    "turndown-async": "0.0.2",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}
